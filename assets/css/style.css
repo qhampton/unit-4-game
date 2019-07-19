@@ -1,15 +1,34 @@
 /* background image of hawkins*/
-
+body{
+    background-image: url(../images/stranger-background.jpg);
+    background-position: center;
+    background-attachment: fixed; 
+}
 /*main game section padding and staging*/
-
+.container{
+    margin: 0 auto 0 auto;
+    height: auto;
+    width: 600px;
+    background-color: whitesmoke;
+    text-align: center;
+}
 /*main titles*/
-
+h1 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
 /*game area titles*/
-
+h2{
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+}
+/*smaller titles*/
+h3{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
 /* images- height width 100 x 150 */
 
 /*picture stylings- inline block, borders, paddings cursor pointer*/
 
 /* stat info on top and bottom*/
-
-

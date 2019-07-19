@@ -1,15 +1,71 @@
 <!DOCTYPE html>
-<!--Links to libraries being used-->
-<!--Bootstrap-->
-<!--jQuery-->
-<!--Google Fonts-->
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <!--Links to libraries being used-->
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron|Quantico|Russo+One&display=swap" rel="stylesheet">
+
+    <!--CSS File-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>RPG Game</title>
+</head>
+
+<body>
 <!--Title/Theme of Stranger Things-->
 <!--Container set-up for game-->
-<!--Character section-->
-<!--Player Choice-->
-<!--Select an Enemy-->
-<!--Fight Section: attack button-->
-<!--Defender Area: for the enemy chosen-->
+<div class="container">
+        <!--Header-->
+        <div class="row mainTitle">
+            <div class="col-sm-12">
+            <h1>Battle For Hawkins!</h1>
+            </div>
+        </div>
+        <!--Character section-->
+        <div class="row characterArea">
+            <div class="col-sm-12">
+            <h3>Choose Your Champion</h3>
+            </div>
+        </div>
+        <!--Player Choice-->
+        <div class="row playerChoice">
+            <div class="col-sm-12">
+            <h2>Player 1</h2>
+            </div>
+        </div>
+        <!--Fight Section: attack button-->
+        <div class="row fightArea">
+            <div class="col-sm-12">
+            <h2>Ready? Fight!</h2>
+            <button class="btn btn-secondary btn-lg btn-block">ATTACK</button>
+            </div>
+        </div>
+        <!--Current Enemy-->
+        <div class="row enemey">
+            <div class="col-sm-12">
+            <h2>Opponent</h2>
+            </div>
+        </div>
+        <!--Defender Area: enemies left-->
+        <div class="row defenders">
+            <div class="col-sm-12">
+            <h3>Whose Next?</h3>
+            </div>
+        </div>
+        <!--Reset- button-->
+        <div class="row reset">
+            <div class="col-sm-12">
+            <h3>Play Again?</h3>
+            </div>
+        </div>
+</div>
 
-<!--JavaScript Link-->
+    <!--JS File-->
+    <script src="assets/javascript/game.js"></script>
+</body>
 </html>
